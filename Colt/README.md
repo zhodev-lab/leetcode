@@ -42,3 +42,8 @@ Happy coding!
 |                   |  findAllDuplicates  |      [JS](./FrequencyCounter/findAllDuplicates.js)     | ✅ Done  |
 |                   |  sameFrequency  |      [JS](./FrequencyCounter/sameFrequency.js)     | ✅ Done  |
 | Multiple Pointers Pattern |                       |                           |          |
+|                   |  findPair  |      [JS](./MultiplePointers/findPair.js)     | ✅ Done  |
+|                   |  isSubsequence  |      [JS](./MultiplePointers/isSubsequence.js)     | ✅ Done  |
+|                   |  averagePair  |      [JS](./MultiplePointers/averagePair.js)     | ✅ Done  |
+|  Sliding Window Pattern  |                      |                          |          |
+|                   |  maxSubarraySum  |      [JS](./SlidingWindow/maxSubarraySum.js)     | ✅ Done  |
