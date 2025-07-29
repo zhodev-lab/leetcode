@@ -17,5 +17,5 @@ Hi! I'm a software engineer(Full Stack, Front End) currently sharpening my algor
 
 | Category    | Date       | Problem          | Code      | Status        |
 |-------------|----------- |------------------|-----------|---------------|
-| Array.      | 2025-07-27 | 1. Two Sum       |[JS](./Array/1_two_sum.js)| ✅ Done |
+| Array.      | 2025-07-27 | 1. Two Sum       |[JS](./Array/twoSum.js)| ✅ Done |
 | ...         | ...        | ...              | ...       | ...         | ...|
