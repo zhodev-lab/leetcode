@@ -47,3 +47,4 @@ Happy coding!
 |                   |  averagePair  |      [JS](./MultiplePointers/averagePair.js)     | ✅ Done  |
 |  Sliding Window Pattern  |                      |                          |          |
 |                   |  maxSubarraySum  |      [JS](./SlidingWindow/maxSubarraySum.js)     | ✅ Done  |
+|                   |  minSubArrayLen  |      [JS](./SlidingWindow/minSubArrayLen.js)     | ✅ Done  |

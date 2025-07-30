@@ -17,20 +17,29 @@
 // Space Complexity - O(1)
 
 const maxSubarraySum = (arr, len) => {
-    let res = 0;
-
-    let prev = 0;
     // pick the len of arr in the arr
     // summary it 
-    for(let i = 0;i<arr.length; i++){
+    
+    if(arr.length < len) return null; // if the length of arr is less than len, return null
+    let maxSum = 0;
+    let tempSum = 0;
 
-        if(i - prev < len){
-            res = res + arr[i]
-        }else{
-            res = res - arr[prev];
-            prev++;
-            res = res + arr[i];
-        }
+    // if the len is greater than the arr length    // then pop the first element and append the next element
+    for(let i = 0; i < len; i++){
+        maxSum += arr[i]; // sum the first len elements
+    };
+    tempSum = maxSum; // set tempSum to maxSum
+
+    for(let i = len; i < arr.length; i++){
+        tempSum = tempSum - arr[i - len] + arr[i]; // slide the window by subtracting the first element of the previous window and adding the next element
+        maxSum = Math.max(maxSum, tempSum); // update maxSum if tempSum is greater
     }
-    return res;
+
+    return maxSum;
 }
+
+console.log(maxSubarraySum([100,200,300,400], 2)); // 700
+console.log(maxSubarraySum([1,4,2,10,23,3,1,0,20], 4));  // 39 
+console.log(maxSubarraySum([-3,4,0,-2,6,-1], 2)); // 5
+console.log(maxSubarraySum([3,-2,7,-4,1,-1,4,-2,1],2)); // 5
+console.log(maxSubarraySum([2,3], 3)); // null
