@@ -48,3 +48,6 @@ Happy coding!
 |  Sliding Window Pattern  |                      |                          |          |
 |                   |  maxSubarraySum  |      [JS](./SlidingWindow/maxSubarraySum.js)     | ✅ Done  |
 |                   |  minSubArrayLen  |      [JS](./SlidingWindow/minSubArrayLen.js)     | ✅ Done  |
+| Divide and Conquer Pattern |                |                           |          |
+|                   |  countZeroes  |      [JS](./DivideAndConquer/countZeroes.js)     | ✅ Done  |
+|                   |  sortedFrequency  |      [JS](./DivideAndConquer/sortedFrequency.js)     | ✅ Done  |
