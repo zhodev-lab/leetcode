@@ -36,8 +36,11 @@
 
 ## 📅 Practice Plan
 each day will be folder named `dayXX` where `XX` is the day number (01-90).
-| day         | Problem                        |
+| day         | Problem                         |
 |-------------|---------------------------------|
 | Day 01      | 1_two_sum                       |
 |             | 20_valid_parentheses            |
-|             | 20_valid_parentheses            |
+| Day 02      | 121_Best Time to Buy and Sell Stock  |
+|             | 242_Valid Anagram 
+
+
